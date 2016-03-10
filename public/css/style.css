@@ -1,3 +1,7 @@
+* {
+  font-family: 'Cinzel', serif;
+}
+
 body {
   background-image: url("http://cdn.gamerspack.com/wp-content/uploads/2013/08/ryse-gladiator-larc.jpg");
 
@@ -12,10 +16,15 @@ body {
   height: 100%;
 }
 
+#leaderboardtitle {
+  border-bottom: 5px solid white;
+}
+
 h1 {
   color: white;
   font-family: 'Cinzel', serif;
   font-size: 4em;
+  text-shadow: 2px 2px rgb(0,0,0);
 }
 
 div#loginlink {
@@ -23,7 +32,7 @@ div#loginlink {
 
 }
 
-a {
+a#loginbtnlink {
   color:white;
   font-size: 1.8em;
   text-decoration: none;
@@ -35,6 +44,45 @@ a {
   border-radius: 10px;
 }
 
+
+
+h2 {
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+
+#profilepics {
+  width: 200px;
+}
+
+.indivuser {
+  background-color:rgba(0,0,0,0.5);
+}
+
+.users {
+  top: 30px;
+}
+
+.summary {
+  background-color:rgba(0,0,0,0.7);
+  border-bottom: 5px solid white;
+}
+
+.contribution {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color: #8F3038;
+  font-size: 1.2em;
+}
+
+.summary {
+  padding-bottom: 40px;
+}
+
+.githublink {
+  text-decoration: none;
+  color: white;
+}
 
 /*set width of entire grid*/
 
