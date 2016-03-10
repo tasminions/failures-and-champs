@@ -26,8 +26,10 @@
     "handlebars": "^4.0.5",
     "hapi": "^13.0.0",
     "inert": "^3.2.0",
+    "jsonwebtoken": "^5.7.0",
     "nodemon": "^1.9.1",
     "path": "^0.12.7",
+    "redis": "^2.5.0-1",
     "request": "^2.69.0",
     "vision": "^4.0.1"
   },
