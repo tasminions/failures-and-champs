@@ -1,3 +1,32 @@
-<p>
-  {{users}}
-</p>
+<div class="grid-container">
+  <div class="row">
+    <div id="leaderboardtitle" class="col-10 offset-1">
+      <h1>Failures and Champs Leaderboard</h1>
+    </div>
+  </div>
+
+  <div class=" summary row">
+    <div class="col-5 winner offset-1">
+        <h2>This week's winner: {{winner.name}}</h2>
+        <img id="profilepics" src="{{winner.img_url}}" alt="winner" />
+    </div>
+    <div class="loser col-5">
+        <h2>This week's loser: {{loser.name}}</h2>
+        <img id="profilepics" src="{{loser.img_url}}" alt="loser" />
+    </div>
+  </div>
+
+  <div class="users">
+    {{#each users}}
+    <div class=" col-4 indivuser">
+      <img id="profilepics" src="{{img_url}}" alt="image" />
+      <h2>{{name}}</h2>
+      <p class="contribution">
+        contributions: {{contrib_total}}
+      </p>
+      <a class="githublink" href="{{profile_url}}">{{profile_url}}</a>
+    </div>
+    {{/each}}
+  </div>
+
+</div>
