@@ -2,10 +2,10 @@
 
 ## Wireframes
 ### Login page
-![public/img/readme/login.jpg]
+![login](public/img/readme/login.jpg)
 ### Leaderboard
-![public/img/readme/leaderboard.jpg]
+![leaderboard](public/img/readme/leaderboard.jpg)
 ### Twitter page
-![public/img/readme/twitter.jpg]
+![twitter](public/img/readme/twitter.jpg)
 ### Folder Structure
-![public/img/readme/folder_structure.jpg]
+![folder_structure](public/img/readme/folder_structure.jpg)
