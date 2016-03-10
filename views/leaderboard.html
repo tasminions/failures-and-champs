@@ -1,3 +1,43 @@
-<p>
-  {{users}}
-</p>
+<div class="grid-container">
+  <div class="row">
+    <div class="col-10 offset-1">
+      <h1>Failures and Champs Leaderboard</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="winner col-5 offset-1">
+
+        <h2>{{winner.name}}</h2>
+
+    </div>
+    <div class="loser col-5">
+
+        <h2>{{loser.name}}</h2>
+
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="users">
+  {{#each users}}
+  <div class="">
+    <img src="{{img_url}}" alt="image" />
+    <h1>{{name}}</h1>
+    <p>
+      contributions: {{contrib_total}}
+    </p>
+    <a href="{{profile_url}}"></a>
+  </div>
+  {{/each}}
+</div>
