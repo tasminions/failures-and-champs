@@ -24,6 +24,7 @@
   "dependencies": {
     "bluebird": "^3.3.4",
     "env2": "^2.0.6",
+    "fs": "0.0.2",
     "handlebars": "^4.0.5",
     "hapi": "^13.0.0",
     "inert": "^3.2.0",
@@ -32,6 +33,7 @@
     "path": "^0.12.7",
     "redis": "^2.5.0-1",
     "request": "^2.69.0",
+    "twitter": "^1.2.5",
     "vision": "^4.0.1"
   },
   "devDependencies": {
