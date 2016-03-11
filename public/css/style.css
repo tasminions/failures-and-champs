@@ -4,7 +4,8 @@
 
 body {
   background-image: url("http://cdn.gamerspack.com/wp-content/uploads/2013/08/ryse-gladiator-larc.jpg");
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #logo {
