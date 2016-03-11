@@ -14,7 +14,6 @@ The app makes use of the following technologies:
 * *Redis* database to store JWT
 * *Heroku* to deploy the app
 * *Handlebars* for html template rendering
-* *SASS* for css
 
 After successfully logging on Github, the app
 * retrieves the list of members from FAC7
