@@ -11,7 +11,7 @@ The app makes use of the following technologies:
 * **OAuth** with **Gituhb API** (preferred over Facebook, as it is more *"open"* for developers)
 * **JWT** to store access token
 * **Redis** database to store JWT
-* **POST** requests to **Twitter** 
+* **POST** requests on this [**Twitter** account](https://twitter.com/FailuresNChamps)
 * **Heroku** to deploy the app
 
 After successfully logging on Github, the app
