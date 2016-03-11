@@ -58,6 +58,19 @@ a.twitterlink{
   background-repeat: no-repeat;
 }
 
+a.logout{
+  z-index: 5;
+  position:absolute;
+  top: 10%;
+  left: 2%;
+  width: 64px;
+  height: 64px;
+  background-image: url('../img/logout.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 h2 {
   color: white;
   font-family: 'Cinzel', serif;
