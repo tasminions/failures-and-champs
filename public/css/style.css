@@ -45,7 +45,18 @@ a#loginbtnlink {
   border-radius: 10px;
 }
 
-
+a.twitterlink{
+  z-index: 5;
+  position:fixed;
+  top: 10%;
+  right: 2%;
+  width: 64px;
+  height: 52px;
+  background-image: url('../img/twitterlogo.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 
 h2 {
   color: white;
