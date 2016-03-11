@@ -29,7 +29,6 @@
     "hapi": "^13.0.0",
     "inert": "^3.2.0",
     "jsonwebtoken": "^5.7.0",
-    "nodemon": "^1.9.1",
     "path": "^0.12.7",
     "redis": "^2.5.0-1",
     "request": "^2.69.0",
@@ -37,6 +36,7 @@
     "vision": "^4.0.1"
   },
   "devDependencies": {
-    "wrapping-tape": "0.0.3"
+    "wrapping-tape": "0.0.3",
+    "nodemon": "^1.9.1"
   }
 }
