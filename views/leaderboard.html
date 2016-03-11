@@ -20,11 +20,10 @@
     {{#each users}}
     <div class=" col-4 indivuser">
       <img id="profilepics" src="{{img_url}}" alt="image" />
-      <h2>{{name}}</h2>
+      <a class="githublink" href="{{profile_url}}"><h2>{{name}}</h2></a>
       <p class="contribution">
         contributions: {{contrib_total}}
       </p>
-      <a class="githublink" href="{{profile_url}}">{{profile_url}}</a>
     </div>
     {{/each}}
   </div>
