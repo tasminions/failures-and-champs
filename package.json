@@ -29,6 +29,7 @@
     "hapi": "^13.0.0",
     "inert": "^3.2.0",
     "jsonwebtoken": "^5.7.0",
+    "node-schedule": "^1.1.0",
     "path": "^0.12.7",
     "redis": "^2.5.0-1",
     "request": "^2.69.0",
