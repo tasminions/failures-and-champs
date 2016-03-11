@@ -10,9 +10,11 @@ The app makes use of the following technologies:
 * [HapiJS](https://hapijs.com) to make GET and POST requests with a chosen API(s)
 * **OAuth** with **Gituhb API** (preferred over Facebook, as it is more *"open"* for developers)
 * **JWT** to store access token
-* **Redis** database to store JWT
 * **POST** requests on this [**Twitter** account](https://twitter.com/FailuresNChamps)
-* **Heroku** to deploy the app
+* *Redis* database to store JWT
+* *Heroku* to deploy the app
+* *Handlebars* for html template rendering
+* *SASS* for css
 
 After successfully logging on Github, the app
 * retrieves the list of members from FAC7
